@@ -1,0 +1,76 @@
+body{	 background: url("apple.jpg");
+	background-size:cover;
+	background-repeat: no-repeat;
+}
+ul{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	overflow:hidden;
+	background-color:gray;
+	 
+}
+li{
+	float: left;
+	font-size:25px;
+	/*border-right:1px solid #bbb;*/
+}
+li a{
+	display: inline-block;
+	color:white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+li a:hover{
+	display:block;
+	color:white;
+	background: #111;
+}
+li:last-child {
+    border-right: none;
+}
+
+.active{
+	background-color: rgb(113, 161, 224);
+}
+.contact{
+	float: right;
+}
+fieldset::first-letter{
+	font-family:cursive; 
+	color:brown;
+	font-size:300%;
+}
+fieldset{
+	font-size:20px;
+	float:middle;
+	display: block;
+	border-radius: 20px;
+	width:22%;
+	background-color:whitesmoke; 
+}
+.Username{
+	background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 8px 16px;
+	text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.Username{
+background-color: #008CBA; 
+color: white; 
+border: 2px solid #008CBA;
+}
+
+.Username:hover {
+background-color: white;
+color: #008CBA;
+}
